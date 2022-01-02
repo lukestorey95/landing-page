@@ -1,0 +1,197 @@
+/* ======
+DOCUMENT
+====== */
+
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+html,
+body,
+header,
+footer {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+/* ====
+HEADER
+==== */
+
+header {
+  background-color: #1f2937;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 200px;
+}
+
+h2 {
+  font-size: 24px;
+  color: #f9faf8;
+}
+
+a,
+p {
+  text-decoration: none;
+  font-size: 18px;
+  color: darkgray;
+}
+
+a:hover {
+  color: #3e8e41;
+}
+
+.top-right {
+  display: flex;
+  gap: 20px;
+}
+
+/* ===
+INTRO
+=== */
+
+.intro {
+  background-color: #1f2937;
+  display: flex;
+  align-content: space-between;
+  align-items: center;
+  padding: 50px 200px;
+  gap: 90px;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: bolder;
+  color: #f9faf8;
+  margin: 0;
+}
+
+img {
+  height: 250px;
+  width: 500px;
+  border-radius: 10px;
+}
+
+button {
+  background-color: #3882f6;
+  border: none;
+  border-radius: 10px;
+  padding: 8px 32px;
+  color: #f9faf8;
+  font-size: 18px;
+}
+
+button:hover {
+  background-color: #3e8e41;
+}
+
+/* ==
+INFO
+== */
+
+.info {
+  margin: 0 250px;
+  margin-bottom: 100px;
+  text-align: center;
+}
+
+.square {
+  height: 175px;
+  width: 175px;
+  border-width: 5px;
+  border-style: solid;
+  border-radius: 20px;
+  border-color: #3882f6;
+}
+
+h3 {
+  font-size: 36px;
+  font-weight: bolder;
+  color: #1f2937;
+}
+
+.carrousel {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+.item {
+  max-width: 175px;
+}
+
+.text {
+  font-size: 18px;
+  color: rgb(73, 73, 72);
+}
+
+/* ===
+QUOTES
+=== */
+
+.quotes {
+  padding: 100px 300px;
+  background-color: #e5e7eb;
+}
+
+.quote {
+  font-size: 36px;
+  font-style: italic;
+}
+
+.author {
+  text-align: right;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+/* ===
+CTA
+=== */
+
+.cta {
+  background-color: #3882f6;
+  margin: 100px 200px;
+  border-radius: 5px;
+  display: flex;
+  padding: 20px 100px;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+}
+
+.button-white {
+  border-color: white;
+  border-width: 2px;
+  border-style: solid;
+  max-height: 40px;
+}
+
+h4 {
+  color: #f9faf8;
+  font-weight: bold;
+  font-size: 24px;
+  margin-bottom: 0;
+  margin-top: 15px;
+}
+
+.sign-up {
+  color: lightgray;
+  margin-top: 0;
+}
+
+.button-white:hover {
+  background-color: white;
+  color: #3882f6;
+}
+/* ====
+FOOTER
+==== */
+
+footer {
+  background-color: #1f2937;
+  text-align: center;
+  padding: 10px 0;
+}
